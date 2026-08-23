@@ -8,52 +8,66 @@
 
 ## Cores
 
-- **Fundo principal:**
+Identidade monocromática (preto e branco puro) — duas variações válidas, conforme a peça:
 
-- **Cor de destaque / CTA:**
+- **Variação escura (padrão):** fundo #000000, texto/traço #FFFFFF
+- **Variação clara:** fundo #FFFFFF, texto/traço #000000 — usada em carrosséis e peças onde o fundo claro facilita leitura ou combina com o contexto (ex: feed intercalado)
 
-- **Texto principal:**
+- **Cor de destaque / CTA:** Nenhuma nas duas variações
 
-- **Fundo alternativo / cards:**
-
-- **Cor proibida:**
+- **Cor proibida:** Qualquer cor fora de preto/branco — manter monocromático em ambas
 
 ---
 
 ## Tipografia
 
-- **Títulos e destaques:**
+- **Títulos e destaques:** Geométrica sans-serif, caixa alta, letter-spacing largo (referência: Orbitron / Michroma)
 
-- **Corpo, subtítulos e botões:**
+- **Corpo, subtítulos e botões:** Mesma família, peso mais leve
 
-- **Peso do título:**
+- **Peso do título:** Bold / caixa alta
 
 ---
 
 ## Estilo geral
 
+Monocromático (preto e branco), visual tech/geométrico. Mark em "A" com
+swoosh diagonal atravessando o vértice.
+
 ---
 
 ## Elementos-chave
 
-- Bordas:
-- Border-radius dos cards:
-- Botões:
-- Sombras:
+- Bordas: Linhas finas brancas sobre fundo preto (ex: divisor vertical entre mark e wordmark, badge circular/retangular)
+- Border-radius dos cards: —
+- Botões: —
+- Sombras: Evitar — visual é chapado (preto/branco), sem profundidade
 
 ---
 
 ## O que NUNCA fazer
 
+- Não introduzir cores fora de preto/branco
+- Não usar emojis nem elementos decorativos que fujam do estilo geométrico/tech
+
 ---
 
 ## Logo
 
-- **Arquivo:** *(ex: identidade/logo.png ou identidade/logo.svg)*
-- **Versão pra fundo escuro:** *(se tiver — ex: identidade/logo-branco.png)*
-- **Onde usar:** slide final do carrossel (CTA), header de propostas, slides de apresentação
-- **Tamanho sugerido:** largura entre 120-200px nos HTMLs
+Todas as variações abaixo têm fundo transparente e existem em **duas tintas** — `-black` (traço preto, pra fundo claro) e `-white` (traço branco, pra fundo escuro):
 
----
+- **identidade/logo-mark-white.png** — lockup completo, branco, fundo transparente (versão original, mantida por compatibilidade)
+- **identidade/logo-mark-only-white.png** — só o símbolo "A", branco, fundo transparente (versão original, mantida por compatibilidade)
+- **identidade/logo-variacoes-sheet.png** — folha de referência com todas as variações juntas (fonte original, não recortada)
+- **identidade/variacoes/logo-lockup-{black,white}.png** — lockup completo (mark + "ATLAZ" + "MARKETING DIGITAL")
+- **identidade/variacoes/logo-lockup-linhas-{black,white}.png** — lockup completo com linhas flanqueando "MARKETING DIGITAL" (bom pra capa/abertura)
+- **identidade/variacoes/logo-horizontal-divisor-{black,white}.png** — mark + divisor vertical + wordmark, compacto (bom pra header/rodapé de peças)
+- **identidade/variacoes/logo-badge-retangular-{black,white}.png** — lockup horizontal dentro de badge retangular arredondado
+- **identidade/variacoes/logo-badge-circular-{black,white}.png** — só o mark dentro de badge circular
+- **identidade/variacoes/logo-circular-horizontal-{black,white}.png** — mark em badge circular + wordmark ao lado
 
-## Observações adicionais
+**Onde usar:**
+- Capa e CTA final de carrossel → lockup completo (`logo-lockup` ou `logo-lockup-linhas`)
+- Header/rodapé de slides internos, propostas → `logo-horizontal-divisor` (compacto)
+- Ícone/avatar, favicon, marca d'água → `logo-badge-circular` ou mark isolado
+- **Tamanho sugerido:** largura entre 120-200px nos HTMLs (lockup completo); mark isolado funciona bem de 32-64px como ícone

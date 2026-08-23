@@ -113,3 +113,78 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+# Atlaz Marketing Digital
+
+> Molde aplicado: agência. Equipe pequena (hoje, uma pessoa só) entregando
+> pra múltiplos clientes ao mesmo tempo. O sistema gira em torno de
+> proposta, atendimento e produção em paralelo.
+
+## O que é esse workspace
+
+Operação da Atlaz Marketing Digital. Aqui ficam clientes, propostas,
+conteúdo e entregas da agência.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é a Atlaz, como falamos, foco atual
+- `identidade/` — marca da Atlaz (aplicada nas peças internas e de cliente)
+- `clientes/` — uma subpasta por cliente, autossuficiente (criada pelo `/novo-projeto` quando o primeiro cliente entrar)
+- `briefings/` — briefings antes de virar cliente
+- `propostas/` — propostas em andamento
+- `marketing/` — conteúdo institucional da Atlaz
+- `saidas/` — documentos pontuais, análises
+- `dados/` — arquivos a analisar (relatórios de cliente, exports)
+
+## Sobre a agência
+
+Agência de marketing digital. Atendemos MEI, ME, LTDA — pequenas, médias
+e grandes empresas, com foco em prestadores de serviços e negócios B2B
+que buscam melhorar a comunicação visual e o contato com o cliente.
+Serviços principais:
+
+- Criação de sites
+- Consultoria de marketing digital
+- Instagram pronto (carrosséis + conteúdo)
+
+Time: 1 pessoa (Welton, dono e operador). Fase atual: montagem do
+portfólio, ainda sem clientes fechados. Preços não são fixos — tudo
+definido por negociação caso a caso.
+
+## Clientes ativos
+
+Nenhum ainda — fase de montagem do portfólio.
+
+## O que mais produzimos aqui
+
+- Portfólio de serviços (foco atual)
+- Propostas comerciais pra novos clientes (sem preço fixo)
+- Sites, carrosséis e conteúdo pra Instagram
+
+## Tom de voz
+
+Nem formal nem informal — sempre respeitoso ("senhor/senhora", "por
+favor", "obrigado"). Direto no problema, cirúrgico, sem enfeite.
+
+Evitar: jargão de guru ("alavancar", "sinergia" e afins), emojis, texto
+enfeitado.
+
+## Regras do sistema
+
+- Cliente novo → criar pasta `clientes/<Nome>/` com briefing, estratégia
+  e subpastas conforme as entregas contratadas
+- Proposta nova → `propostas/<cliente>-<data>.html` antes de fechar —
+  sem preço fixo, sempre por negociação
+- Casos de sucesso ficam em `clientes/<Nome>/caso.md` (reuso em pitches)
+
+## Ferramentas conectadas
+
+- [ ] Notion
+- [ ] Gmail
+- [ ] Google Calendar
+- [ ] Canva
+- [ ] Meta Ads
+- [ ] Google Ads
+
+*(Marcar conforme for instalando os MCPs)*
