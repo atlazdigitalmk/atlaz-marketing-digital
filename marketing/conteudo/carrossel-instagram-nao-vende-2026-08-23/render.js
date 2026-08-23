@@ -1,11 +1,12 @@
 const { chromium } = require('playwright');
+const fs = require('fs');
 const path = require('path');
 
 (async () => {
-  const browser = await chromium.launch({
-    executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
-    args: ['--disable-lcd-text', '--font-render-hinting=none'],
-  });
+  const sandboxChromium = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
+  const launchOpts = { args: ['--disable-lcd-text', '--font-render-hinting=none'] };
+  if (fs.existsSync(sandboxChromium)) launchOpts.executablePath = sandboxChromium;
+  const browser = await chromium.launch(launchOpts);
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
   await page.goto('file://' + path.resolve(__dirname, 'carrossel.html'));
   await page.evaluate(() => document.fonts.ready);

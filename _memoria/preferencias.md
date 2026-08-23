@@ -14,6 +14,7 @@ poucos conforme o Welton for dando feedback sobre textos produzidos.
 - Jargão de guru da internet ("alavancar", "sinergia" e afins)
 - Enfeitar demais o texto
 - Emojis
+- Travessão (—) pra separar ideias na frase — dá cara de texto feito por IA. Preferir ponto final, vírgula ou dois-pontos pra ligar as ideias
 
 ## Estilo geral
 
