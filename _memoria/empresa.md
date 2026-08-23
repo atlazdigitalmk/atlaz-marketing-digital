@@ -10,6 +10,7 @@
 **Atende clientes:** MEI, ME, LTDA — pequenas, médias e grandes empresas, foco em prestadores de serviços e negócios B2B que buscam melhorar comunicação visual e presença/contato com o cliente
 **Equipe:** Só o Welton, dono e operador
 **Ferramentas:** —
+**Repositório:** https://github.com/atlazdigitalmk/atlaz-marketing-digital (GitHub, conta atlazdigitalmk)
 **Contato:** WhatsApp +55 69 98454-9293
 **Instagram:** @atlaz.digitalmk (https://www.instagram.com/atlaz.digitalmk/)
 **Principais entregas:** Sites, consultoria de marketing digital, Instagram pronto (carrosséis, conteúdo)

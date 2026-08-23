@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazzeoia/MazyOS.git"
+    "url": "git+https://github.com/atlazdigitalmk/atlaz-marketing-digital.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/mazzeoia/MazyOS/issues"
+    "url": "https://github.com/atlazdigitalmk/atlaz-marketing-digital/issues"
   },
-  "homepage": "https://github.com/mazzeoia/MazyOS#readme",
+  "homepage": "https://github.com/atlazdigitalmk/atlaz-marketing-digital#readme",
   "dependencies": {
     "jimp": "^1.6.1",
     "playwright": "^1.62.1"
