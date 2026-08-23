@@ -32,3 +32,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-08-23 | Apresentação da Atlaz | `marketing/conteudo/carrossel-apresentacao-atlaz-2026-08-23/` |
 | 2026-08-23 | 5 erros comuns no Instagram de prestador de serviço | `marketing/conteudo/carrossel-5-erros-instagram-prestador-2026-08-23/` |
 | 2026-08-23 | Seu Instagram não vende | `marketing/conteudo/carrossel-instagram-nao-vende-2026-08-23/` |
+| 2026-08-23 | Preciso mesmo de um site? (site é pra quem entrega, não só pra nicho específico) — criado manualmente, fora da fila | `marketing/conteudo/carrossel-site-pra-todo-mundo-2026-08-23/` |
