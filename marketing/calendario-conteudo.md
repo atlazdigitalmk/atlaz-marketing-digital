@@ -15,7 +15,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 ## Fila de temas
 
 - [x] 2026-08-23 — Apresentação da Atlaz (institucional) — já publicado manualmente
-- [ ] Educativo — 5 erros comuns no Instagram de prestador de serviço
+- [x] 2026-08-23 — Educativo — 5 erros comuns no Instagram de prestador de serviço
 - [ ] Dor do cliente — "Seu Instagram não vende" (por que ter perfil não é o mesmo que vender)
 - [ ] Aprofundar serviço — Sites: o que entra num site profissional (o que a Atlaz inclui)
 - [ ] Educativo — O que colocar (e o que não colocar) na bio do Instagram profissional
@@ -30,3 +30,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | Data | Tema | Pasta |
 |------|------|-------|
 | 2026-08-23 | Apresentação da Atlaz | `marketing/conteudo/carrossel-apresentacao-atlaz-2026-08-23/` |
+| 2026-08-23 | 5 erros comuns no Instagram de prestador de serviço | `marketing/conteudo/carrossel-5-erros-instagram-prestador-2026-08-23/` |
