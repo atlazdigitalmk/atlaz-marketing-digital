@@ -21,11 +21,16 @@ Identidade monocromática (preto e branco puro) — duas variações válidas, c
 
 ## Tipografia
 
-- **Títulos e destaques:** Geométrica sans-serif, caixa alta, letter-spacing largo (referência: Orbitron / Michroma)
-
-- **Corpo, subtítulos e botões:** Mesma família, peso mais leve
-
+- **Títulos e destaques:** Michroma (geométrica, caixa alta, letter-spacing largo)
+- **Corpo:** IBM Plex Sans
+- **Labels, contador, rodapé, @handle:** IBM Plex Mono (uppercase, tracked)
 - **Peso do título:** Bold / caixa alta
+
+**Fontes locais (obrigatório usar):** `identidade/fontes/fonts.css` tem as três famílias
+já embutidas em arquivos `.woff2` locais (`identidade/fontes/files/`). Toda peça HTML
+(carrossel, proposta, etc.) deve linkar esse arquivo — `<link rel="stylesheet" href="caminho/pra/identidade/fontes/fonts.css">`
+— em vez do link do Google Fonts. Isso evita depender de rede pra renderizar (essencial
+pra rotinas automáticas rodando em sandbox, onde o link direto do Google Fonts falha).
 
 ---
 
