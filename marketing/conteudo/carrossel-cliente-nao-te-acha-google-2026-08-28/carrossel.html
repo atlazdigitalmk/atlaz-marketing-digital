@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Atlaz — Cliente não te acha no Google</title>
+<link rel="stylesheet" href="../../../identidade/fontes/fonts.css">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body { background: #ccc; }
+
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    background: #FFFFFF;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 76px 90px 56px;
+    margin-bottom: 40px;
+  }
+
+  /* grid backdrop */
+  .grid-field {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.07) 1px, transparent 1px);
+    background-size: 54px 54px;
+    -webkit-mask-image: radial-gradient(ellipse 78% 58% at 50% 32%, black 10%, transparent 76%);
+            mask-image: radial-gradient(ellipse 78% 58% at 50% 32%, black 10%, transparent 76%);
+    pointer-events: none;
+  }
+
+  /* corner registration marks */
+  .corner { position: absolute; width: 22px; height: 22px; border-color: rgba(0,0,0,0.3); pointer-events: none; }
+  .corner-tl { top: 30px; left: 30px; border-top: 1.5px solid; border-left: 1.5px solid; }
+  .corner-tr { top: 30px; right: 30px; border-top: 1.5px solid; border-right: 1.5px solid; }
+  .corner-bl { bottom: 30px; left: 30px; border-bottom: 1.5px solid; border-left: 1.5px solid; }
+  .corner-br { bottom: 30px; right: 30px; border-bottom: 1.5px solid; border-right: 1.5px solid; }
+
+  .header { display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 1; }
+  .logo-header { height: 46px; width: auto; display: block; }
+  .counter { font-family: 'IBM Plex Mono', monospace; font-size: 17px; font-weight: 500; letter-spacing: 0.2em; color: rgba(0,0,0,0.5); }
+
+  .footer {
+    border-top: 1px solid rgba(0,0,0,0.15);
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    position: relative;
+    z-index: 1;
+  }
+  .footer .muted { color: rgba(0,0,0,0.5); font-size: 15px; letter-spacing: 0.16em; text-transform: uppercase; }
+
+  .rule { width: 64px; height: 3px; background: #000000; margin: 28px 0; }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 24px;
+  }
+
+  h2, .capa-title {
+    font-family: 'Michroma', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  /* CAPA */
+  .capa-main { display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1; text-align: center; position: relative; z-index: 1; }
+  .capa-logo { width: 460px; max-width: 82%; height: auto; margin-bottom: 40px; }
+  .capa-sub {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.55;
+    max-width: 660px;
+    color: rgba(0,0,0,0.82);
+  }
+
+  /* NUMERO */
+  .num-top { flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; z-index: 1; }
+  .num-giant {
+    font-family: 'Michroma', sans-serif;
+    font-size: 240px;
+    font-weight: 400;
+    line-height: 0.85;
+    color: transparent;
+    -webkit-text-stroke: 2.5px #000000;
+    letter-spacing: 0.02em;
+  }
+  .num-h2 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin-top: 20px;
+  }
+  .num-body {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.6;
+    max-width: 800px;
+    color: rgba(0,0,0,0.82);
+  }
+
+  /* TEXTO SIMPLES */
+  .quem-main { flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; z-index: 1; }
+  .quem-h2 {
+    font-size: 58px;
+    line-height: 1.15;
+  }
+  .quem-body {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.6;
+    max-width: 760px;
+    color: rgba(0,0,0,0.82);
+  }
+
+  /* CTA FINAL */
+  .cta-main { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; position: relative; z-index: 1; }
+  .cta-logo { width: 340px; max-width: 76%; height: auto; margin-bottom: 52px; }
+  .cta-h2 {
+    font-size: 66px;
+    margin-bottom: 40px;
+  }
+  .cta-contact {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+  }
+  .cta-handle {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.65);
+    letter-spacing: 0.03em;
+  }
+  .cta-footer { justify-content: center; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 — CAPA -->
+<div class="slide">
+  <div class="grid-field"></div>
+  <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+  <div class="header">
+    <div></div>
+    <div class="counter">01 / 06</div>
+  </div>
+  <div class="capa-main">
+    <div class="eyebrow">Presença digital que não aparece</div>
+    <img class="capa-logo" src="../../../identidade/variacoes/logo-lockup-linhas-black.png" alt="Atlaz Marketing Digital">
+    <div class="capa-sub">Seu negócio existe, mas quem procura no Google não te encontra. Veja o que checar primeiro.</div>
+  </div>
+  <div class="footer">
+    <div>@atlaz.digitalmk</div>
+    <div class="muted">Marketing Digital</div>
+  </div>
+</div>
+
+<!-- SLIDE 2 — 01 O PROBLEMA -->
+<div class="slide">
+  <div class="grid-field"></div>
+  <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+  <div class="header">
+    <img class="logo-header" src="../../../identidade/variacoes/logo-horizontal-divisor-black.png" alt="Atlaz">
+    <div class="counter">02 / 06</div>
+  </div>
+  <div class="num-top">
+    <div class="num-giant">01</div>
+    <h2 class="num-h2">Ele procura,<br>você não aparece</h2>
+    <div class="rule"></div>
+    <div class="num-body">O cliente digita o que precisa no Google, vê uma lista de opções e escolhe uma delas. Se o seu negócio não está nessa lista, pra ele você simplesmente não existe.</div>
+  </div>
+  <div class="footer">
+    <div>@atlaz.digitalmk</div>
+    <div class="muted">O problema</div>
+  </div>
+</div>
+
+<!-- SLIDE 3 — 02 POR QUE DOI -->
+<div class="slide">
+  <div class="grid-field"></div>
+  <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+  <div class="header">
+    <img class="logo-header" src="../../../identidade/variacoes/logo-horizontal-divisor-black.png" alt="Atlaz">
+    <div class="counter">03 / 06</div>
+  </div>
+  <div class="num-top">
+    <div class="num-giant">02</div>
+    <h2 class="num-h2">A venda vai<br>pro concorrente</h2>
+    <div class="rule"></div>
+    <div class="num-body">Não é falta de interesse do cliente. Ele queria comprar de você, só que outro nome apareceu primeiro. Cada busca perdida é um cliente que nem chegou a te conhecer.</div>
+  </div>
+  <div class="footer">
+    <div>@atlaz.digitalmk</div>
+    <div class="muted">Por que isso dói</div>
+  </div>
+</div>
+
+<!-- SLIDE 4 — ONDE ESTA O ERRO -->
+<div class="slide">
+  <div class="grid-field"></div>
+  <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+  <div class="header">
+    <img class="logo-header" src="../../../identidade/variacoes/logo-horizontal-divisor-black.png" alt="Atlaz">
+    <div class="counter">04 / 06</div>
+  </div>
+  <div class="quem-main">
+    <div class="eyebrow">Onde está o erro</div>
+    <h2 class="quem-h2">Ficha desatualizada<br>ou inexistente</h2>
+    <div class="rule"></div>
+    <div class="quem-body">Endereço errado, telefone antigo, perfil no Google Meu Negócio que nunca foi configurado. Sem essa base corrigida, nenhuma estratégia de conteúdo resolve o problema.</div>
+  </div>
+  <div class="footer">
+    <div>@atlaz.digitalmk</div>
+    <div class="muted">Onde está o erro</div>
+  </div>
+</div>
+
+<!-- SLIDE 5 — COMO A ATLAZ RESOLVE -->
+<div class="slide">
+  <div class="grid-field"></div>
+  <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+  <div class="header">
+    <img class="logo-header" src="../../../identidade/variacoes/logo-horizontal-divisor-black.png" alt="Atlaz">
+    <div class="counter">05 / 06</div>
+  </div>
+  <div class="quem-main">
+    <div class="eyebrow">Como resolvemos</div>
+    <h2 class="quem-h2">Diagnóstico e<br>ajuste real</h2>
+    <div class="rule"></div>
+    <div class="quem-body">Checamos sua ficha no Google, seu site e suas informações de contato, corrigimos o que estiver errado e montamos o que ainda falta. Presença que aparece quando o cliente procura.</div>
+  </div>
+  <div class="footer">
+    <div>@atlaz.digitalmk</div>
+    <div class="muted">Como resolvemos</div>
+  </div>
+</div>
+
+<!-- SLIDE 6 — CTA FINAL -->
+<div class="slide">
+  <div class="grid-field"></div>
+  <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+  <div class="header">
+    <div></div>
+    <div class="counter">06 / 06</div>
+  </div>
+  <div class="cta-main">
+    <img class="cta-logo" src="../../../identidade/variacoes/logo-lockup-black.png" alt="Atlaz Marketing Digital">
+    <h2 class="cta-h2">Vamos conversar</h2>
+    <div class="cta-contact">WhatsApp +55 69 98454-9293</div>
+    <div class="cta-handle">@atlaz.digitalmk</div>
+  </div>
+  <div class="footer cta-footer">
+    <div class="muted">Atlaz Marketing Digital</div>
+  </div>
+</div>
+
+</body>
+</html>

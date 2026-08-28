@@ -19,7 +19,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-08-23 — Dor do cliente — "Seu Instagram não vende" (por que ter perfil não é o mesmo que vender)
 - [x] 2026-08-24 — Aprofundar serviço — Sites: o que entra num site profissional (o que a Atlaz inclui)
 - [x] 2026-08-26 — Educativo — O que colocar (e o que não colocar) na bio do Instagram profissional
-- [ ] Dor do cliente — Cliente não te acha no Google? O que checar primeiro
+- [x] 2026-08-28 — Dor do cliente — Cliente não te acha no Google? O que checar primeiro
 - [ ] Aprofundar serviço — Consultoria: como funciona o diagnóstico de presença digital
 - [ ] Educativo — Diferença entre postar e ter uma estratégia de conteúdo
 - [ ] Dor do cliente — Por que responder devagar no WhatsApp custa cliente
@@ -35,3 +35,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-08-23 | Preciso mesmo de site e mídia social? (presença digital é pra quem entrega, não só pra nicho específico) — criado manualmente, fora da fila | `marketing/conteudo/carrossel-site-pra-todo-mundo-2026-08-23/` |
 | 2026-08-24 | Aprofundar serviço — Sites: o que entra num site profissional | `marketing/conteudo/carrossel-sites-o-que-entra-2026-08-24/` |
 | 2026-08-26 | Educativo — O que colocar (e o que não colocar) na bio do Instagram profissional | `marketing/conteudo/carrossel-bio-instagram-profissional-2026-08-26/` |
+| 2026-08-28 | Dor do cliente — Cliente não te acha no Google? O que checar primeiro | `marketing/conteudo/carrossel-cliente-nao-te-acha-google-2026-08-28/` |
