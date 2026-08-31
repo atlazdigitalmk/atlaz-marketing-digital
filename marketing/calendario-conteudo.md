@@ -20,7 +20,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-08-24 — Aprofundar serviço — Sites: o que entra num site profissional (o que a Atlaz inclui)
 - [x] 2026-08-26 — Educativo — O que colocar (e o que não colocar) na bio do Instagram profissional
 - [x] 2026-08-28 — Dor do cliente — Cliente não te acha no Google? O que checar primeiro
-- [ ] Aprofundar serviço — Consultoria: como funciona o diagnóstico de presença digital
+- [x] 2026-08-31 — Aprofundar serviço — Consultoria: como funciona o diagnóstico de presença digital
 - [ ] Educativo — Diferença entre postar e ter uma estratégia de conteúdo
 - [ ] Dor do cliente — Por que responder devagar no WhatsApp custa cliente
 - [ ] Aprofundar serviço — Mídia social pronta: como funciona na prática (o que o cliente recebe)
@@ -36,3 +36,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-08-24 | Aprofundar serviço — Sites: o que entra num site profissional | `marketing/conteudo/carrossel-sites-o-que-entra-2026-08-24/` |
 | 2026-08-26 | Educativo — O que colocar (e o que não colocar) na bio do Instagram profissional | `marketing/conteudo/carrossel-bio-instagram-profissional-2026-08-26/` |
 | 2026-08-28 | Dor do cliente — Cliente não te acha no Google? O que checar primeiro | `marketing/conteudo/carrossel-cliente-nao-te-acha-google-2026-08-28/` |
+| 2026-08-31 | Aprofundar serviço — Consultoria: como funciona o diagnóstico de presença digital | `marketing/conteudo/carrossel-consultoria-diagnostico-presenca-digital-2026-08-31/` |
