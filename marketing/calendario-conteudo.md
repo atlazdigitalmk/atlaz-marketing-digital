@@ -22,7 +22,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-08-28 — Dor do cliente — Cliente não te acha no Google? O que checar primeiro
 - [x] 2026-08-31 — Aprofundar serviço — Consultoria: como funciona o diagnóstico de presença digital
 - [x] 2026-09-02 — Educativo — Diferença entre postar e ter uma estratégia de conteúdo
-- [ ] Dor do cliente — Por que responder devagar no WhatsApp custa cliente
+- [x] 2026-09-04 — Dor do cliente — Por que responder devagar no WhatsApp custa cliente
 - [ ] Aprofundar serviço — Mídia social pronta: como funciona na prática (o que o cliente recebe)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
@@ -38,3 +38,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-08-28 | Dor do cliente — Cliente não te acha no Google? O que checar primeiro | `marketing/conteudo/carrossel-cliente-nao-te-acha-google-2026-08-28/` |
 | 2026-08-31 | Aprofundar serviço — Consultoria: como funciona o diagnóstico de presença digital | `marketing/conteudo/carrossel-consultoria-diagnostico-presenca-digital-2026-08-31/` |
 | 2026-09-02 | Educativo — Diferença entre postar e ter uma estratégia de conteúdo | `marketing/conteudo/carrossel-postar-vs-estrategia-2026-09-02/` |
+| 2026-09-04 | Dor do cliente — Por que responder devagar no WhatsApp custa cliente | `marketing/conteudo/carrossel-whatsapp-resposta-lenta-2026-09-04/` |
