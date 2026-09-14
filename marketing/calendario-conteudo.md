@@ -26,6 +26,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-09-07 — Aprofundar serviço — Mídia social pronta: como funciona na prática (o que o cliente recebe)
 - [x] 2026-09-09 — Educativo — Frequência de postagem: quantas vezes por semana realmente importa
 - [x] 2026-09-11 — Dor do cliente — Cliente escolhe quem parece mais profissional, não quem faz o melhor trabalho
+- [x] 2026-09-14 — Aprofundar serviço — Sites: como funciona o processo, do briefing até o site no ar
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -44,3 +45,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-09-07 | Aprofundar serviço — Mídia social pronta: como funciona na prática | `marketing/conteudo/carrossel-midia-social-como-funciona-2026-09-07/` |
 | 2026-09-09 | Educativo — Frequência de postagem: quantas vezes por semana realmente importa | `marketing/conteudo/carrossel-frequencia-postagem-instagram-2026-09-09/` |
 | 2026-09-11 | Dor do cliente — Cliente escolhe quem parece mais profissional, não quem faz o melhor trabalho | `marketing/conteudo/carrossel-primeira-impressao-decide-venda-2026-09-11/` |
+| 2026-09-14 | Aprofundar serviço — Sites: como funciona o processo, do briefing até o site no ar | `marketing/conteudo/carrossel-sites-como-funciona-processo-2026-09-14/` |
