@@ -28,6 +28,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-09-11 — Dor do cliente — Cliente escolhe quem parece mais profissional, não quem faz o melhor trabalho
 - [x] 2026-09-14 — Aprofundar serviço — Sites: como funciona o processo, do briefing até o site no ar
 - [x] 2026-09-16 — Educativo — Destaques do Instagram: o que vale a pena criar (e o que é perda de tempo)
+- [x] 2026-09-18 — Dor do cliente — Pediu orçamento e sumiu: por que isso acontece e como evitar
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -48,3 +49,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-09-11 | Dor do cliente — Cliente escolhe quem parece mais profissional, não quem faz o melhor trabalho | `marketing/conteudo/carrossel-primeira-impressao-decide-venda-2026-09-11/` |
 | 2026-09-14 | Aprofundar serviço — Sites: como funciona o processo, do briefing até o site no ar | `marketing/conteudo/carrossel-sites-como-funciona-processo-2026-09-14/` |
 | 2026-09-16 | Educativo — Destaques do Instagram: o que vale a pena criar (e o que é perda de tempo) | `marketing/conteudo/carrossel-destaques-instagram-profissional-2026-09-16/` |
+| 2026-09-18 | Dor do cliente — Pediu orçamento e sumiu: por que isso acontece e como evitar | `marketing/conteudo/carrossel-orcamento-sumiu-2026-09-18/` |
