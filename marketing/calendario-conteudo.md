@@ -32,6 +32,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-09-21 — Aprofundar serviço — Consultoria: quando faz sentido contratar (e quando não)
 - [x] 2026-09-23 — Educativo — Reels ou carrossel: qual formato usar em cada situação
 - [x] 2026-09-25 — Dor do cliente — Depender só de indicação deixa a agenda imprevisível (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-09-28 — Aprofundar serviço — Sites: o que acontece depois que o site vai ao ar (manutenção, atualização, suporte) (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -56,3 +57,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-09-21 | Aprofundar serviço — Consultoria: quando faz sentido contratar (e quando não) | `marketing/conteudo/carrossel-consultoria-quando-contratar-2026-09-21/` |
 | 2026-09-23 | Educativo — Reels ou carrossel: qual formato usar em cada situação | `marketing/conteudo/carrossel-reels-ou-carrossel-2026-09-23/` |
 | 2026-09-25 | Dor do cliente — Depender só de indicação deixa a agenda imprevisível | `marketing/conteudo/carrossel-indicacao-imprevisivel-2026-09-25/` |
+| 2026-09-28 | Aprofundar serviço — Sites: o que acontece depois que o site vai ao ar | `marketing/conteudo/carrossel-sites-manutencao-pos-lancamento-2026-09-28/` |
