@@ -36,6 +36,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-09-30 — Educativo — Legenda de post: o que colocar pra gerar contato (e o que cortar) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-10-02 — Dor do cliente — Sem prova do que você entrega (depoimento, portfólio), o cliente desconfia e escolhe o concorrente (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-10-05 — Aprofundar serviço — Mídia social pronta: o que sai da sua mão e o que continua com você (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-10-09 — Educativo — 5 cuidados na hora de fotografar pro Instagram do negócio (sem precisar de câmera cara) (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -64,3 +65,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-09-30 | Educativo — Legenda de post: o que colocar pra gerar contato (e o que cortar) | `marketing/conteudo/carrossel-legenda-que-gera-contato-2026-09-30/` |
 | 2026-10-02 | Dor do cliente — Sem prova do que você entrega, o cliente desconfia e escolhe o concorrente | `marketing/conteudo/carrossel-falta-prova-social-2026-10-02/` |
 | 2026-10-05 | Aprofundar serviço — Mídia social pronta: o que sai da sua mão e o que continua com você | `marketing/conteudo/carrossel-midia-social-participacao-cliente-2026-10-05/` |
+| 2026-10-09 | Educativo — 5 cuidados na hora de fotografar pro Instagram do negócio | `marketing/conteudo/carrossel-fotos-instagram-negocio-2026-10-09/` |
