@@ -42,6 +42,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-10-16 — Educativo — Stories ou feed: quando usar cada um (sem perder tempo decidindo) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-10-19 — Dor do cliente — Site lento ou que não abre bem no celular faz o cliente desistir antes de te conhecer (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-10-21 — Aprofundar serviço — Sites: domínio e hospedagem, o que significa e de quem é o site no final (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-10-23 — Educativo — Hashtags no Instagram: quantas usar e como escolher sem perder tempo (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -76,3 +77,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-10-16 | Educativo — Stories ou feed: quando usar cada um | `marketing/conteudo/carrossel-stories-ou-feed-2026-10-16/` |
 | 2026-10-19 | Dor do cliente — Site lento ou que não abre bem no celular faz o cliente desistir | `marketing/conteudo/carrossel-site-lento-celular-afasta-cliente-2026-10-19/` |
 | 2026-10-21 | Aprofundar serviço — Sites: domínio e hospedagem, o que significa e de quem é o site no final | `marketing/conteudo/carrossel-sites-dominio-hospedagem-2026-10-21/` |
+| 2026-10-23 | Educativo — Hashtags no Instagram: quantas usar e como escolher sem perder tempo | `marketing/conteudo/carrossel-hashtags-instagram-2026-10-23/` |
