@@ -44,6 +44,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-10-21 — Aprofundar serviço — Sites: domínio e hospedagem, o que significa e de quem é o site no final (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-10-23 — Educativo — Hashtags no Instagram: quantas usar e como escolher sem perder tempo (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-10-26 — Dor do cliente — Avaliação negativa sem resposta no Google faz o cliente seguinte desconfiar antes de te conhecer (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-10-28 — Aprofundar serviço — Mídia social pronta: como funciona a aprovação do conteúdo antes de ir pro ar (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -80,3 +81,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-10-21 | Aprofundar serviço — Sites: domínio e hospedagem, o que significa e de quem é o site no final | `marketing/conteudo/carrossel-sites-dominio-hospedagem-2026-10-21/` |
 | 2026-10-23 | Educativo — Hashtags no Instagram: quantas usar e como escolher sem perder tempo | `marketing/conteudo/carrossel-hashtags-instagram-2026-10-23/` |
 | 2026-10-26 | Dor do cliente — Avaliação negativa sem resposta no Google faz o cliente seguinte desconfiar | `marketing/conteudo/carrossel-avaliacao-negativa-sem-resposta-2026-10-26/` |
+| 2026-10-28 | Aprofundar serviço — Mídia social pronta: como funciona a aprovação do conteúdo antes de ir pro ar | `marketing/conteudo/carrossel-aprovacao-conteudo-midia-social-2026-10-28/` |
