@@ -48,6 +48,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-10-30 — Educativo — Horário de postar no Instagram: por que importa menos do que você imagina (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-02 — Dor do cliente — Mandar preço sem contexto faz o cliente comparar só o número (e perder pro mais barato que entrega menos) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-04 — Aprofundar serviço — Consultoria: o que vem no relatório de diagnóstico (não é só uma nota solta) (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-11-06 — Educativo — Insights do Instagram: os números que realmente importam pra quem vende serviço (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -88,3 +89,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-10-30 | Educativo — Horário de postar no Instagram: por que importa menos do que você imagina | `marketing/conteudo/carrossel-horario-postar-instagram-2026-10-30/` |
 | 2026-11-02 | Dor do cliente — Mandar preço sem contexto faz o cliente comparar só o número | `marketing/conteudo/carrossel-preco-sem-contexto-2026-11-02/` |
 | 2026-11-04 | Aprofundar serviço — Consultoria: o que vem no relatório de diagnóstico | `marketing/conteudo/carrossel-relatorio-diagnostico-consultoria-2026-11-04/` |
+| 2026-11-06 | Educativo — Insights do Instagram: os números que realmente importam pra quem vende serviço | `marketing/conteudo/carrossel-insights-instagram-numeros-2026-11-06/` |
