@@ -50,6 +50,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-11-04 — Aprofundar serviço — Consultoria: o que vem no relatório de diagnóstico (não é só uma nota solta) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-06 — Educativo — Insights do Instagram: os números que realmente importam pra quem vende serviço (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-09 — Dor do cliente — Cliente entra no perfil e não entende o que você faz (por isso ele não manda mensagem) (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-11-11 — Aprofundar serviço — Sites: por que um site bem feito ajuda (ou atrapalha) você aparecer no Google (SEO básico) (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -92,3 +93,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-11-04 | Aprofundar serviço — Consultoria: o que vem no relatório de diagnóstico | `marketing/conteudo/carrossel-relatorio-diagnostico-consultoria-2026-11-04/` |
 | 2026-11-06 | Educativo — Insights do Instagram: os números que realmente importam pra quem vende serviço | `marketing/conteudo/carrossel-insights-instagram-numeros-2026-11-06/` |
 | 2026-11-09 | Dor do cliente — Cliente entra no perfil e não entende o que você faz | `marketing/conteudo/carrossel-perfil-confuso-cliente-nao-entende-2026-11-09/` |
+| 2026-11-11 | Aprofundar serviço — Sites: por que um site bem feito ajuda a aparecer no Google (SEO básico) | `marketing/conteudo/carrossel-sites-seo-basico-2026-11-11/` |
