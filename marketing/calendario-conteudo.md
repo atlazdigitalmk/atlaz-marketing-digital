@@ -52,6 +52,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-11-09 — Dor do cliente — Cliente entra no perfil e não entende o que você faz (por isso ele não manda mensagem) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-11 — Aprofundar serviço — Sites: por que um site bem feito ajuda (ou atrapalha) você aparecer no Google (SEO básico) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-16 — Educativo — Banco de ideias: como nunca ficar sem o que postar no Instagram do negócio (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-11-18 — Dor do cliente — Instagram sem identidade visual faz o cliente confundir você com o concorrente (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -96,3 +97,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-11-09 | Dor do cliente — Cliente entra no perfil e não entende o que você faz | `marketing/conteudo/carrossel-perfil-confuso-cliente-nao-entende-2026-11-09/` |
 | 2026-11-11 | Aprofundar serviço — Sites: por que um site bem feito ajuda a aparecer no Google (SEO básico) | `marketing/conteudo/carrossel-sites-seo-basico-2026-11-11/` |
 | 2026-11-16 | Educativo — Banco de ideias: como nunca ficar sem o que postar | `marketing/conteudo/carrossel-banco-ideias-conteudo-2026-11-16/` |
+| 2026-11-18 | Dor do cliente — Instagram sem identidade visual faz o cliente confundir você com o concorrente | `marketing/conteudo/carrossel-instagram-sem-identidade-visual-2026-11-18/` |
