@@ -55,6 +55,7 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 - [x] 2026-11-18 — Dor do cliente — Instagram sem identidade visual faz o cliente confundir você com o concorrente (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-20 — Aprofundar serviço — Mídia social pronta: como funciona o planejamento mensal (o que é decidido antes de qualquer post sair) (tema novo, inventado pela rotina — fila estava vazia)
 - [x] 2026-11-23 — Educativo — Conta comercial ou pessoal: qual usar no Instagram do seu negócio (tema novo, inventado pela rotina — fila estava vazia)
+- [x] 2026-11-25 — Dor do cliente — Comentário ou direct sem resposta no Instagram faz o cliente achar que ninguém cuida do perfil (e ele procura outro que responde) (tema novo, inventado pela rotina — fila estava vazia)
 
 ## Histórico (a rotina adiciona uma linha aqui a cada post gerado)
 
@@ -102,3 +103,4 @@ Os temas alternam entre três ângulos, nessa ordem, pra não cansar o feed:
 | 2026-11-18 | Dor do cliente — Instagram sem identidade visual faz o cliente confundir você com o concorrente | `marketing/conteudo/carrossel-instagram-sem-identidade-visual-2026-11-18/` |
 | 2026-11-20 | Aprofundar serviço — Mídia social pronta: como funciona o planejamento mensal | `marketing/conteudo/carrossel-midia-social-planejamento-mensal-2026-11-20/` |
 | 2026-11-23 | Educativo — Conta comercial ou pessoal: qual usar no Instagram do seu negócio | `marketing/conteudo/carrossel-perfil-comercial-ou-pessoal-2026-11-23/` |
+| 2026-11-25 | Dor do cliente — Comentário ou direct sem resposta no Instagram faz o cliente achar que ninguém cuida do perfil | `marketing/conteudo/carrossel-dm-sem-resposta-instagram-2026-11-25/` |
